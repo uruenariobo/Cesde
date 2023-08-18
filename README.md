@@ -1,4 +1,27 @@
-# cesde
+# CESDE - Gestión de Materias y Docentes
+
+## Propósito del Proyecto
+
+Este proyecto CESDE es una aplicación desarrollada en Java con una base de datos MySQL. Tiene como objetivo principal crear un sistema para la gestión de materias y docentes en el Centro de Educación Superior CESDE.
+
+## Configuración de la Base de Datos
+
+La base de datos para este proyecto se llama "cesde" y está configurada con el usuario y la contraseña "root".
+
+El script SQL para generar la base de datos se encuentra en el archivo `scriptDB.sql`.
+
+## Despliegue
+
+Para desplegar esta aplicación, sigue estos pasos:
+
+1. Clona este repositorio en tu máquina local.
+2. Crea la base de datos "cesde" en MySQL utilizando el script proporcionado en `scriptDB.sql`.
+3. Abre una terminal en la carpeta del proyecto.
+4. Ejecuta el siguiente comando para iniciar la aplicación:
+
+```bash
+./mvnw
+```
 
 This application was generated using JHipster 7.9.3, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.9.3](https://www.jhipster.tech/documentation-archive/v7.9.3).
 
