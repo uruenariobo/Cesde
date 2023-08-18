@@ -1,0 +1,18 @@
+
+entity Curso {
+  nombre String required,
+  descripcion String,
+  duracion Integer,
+  precio BigDecimal,
+  fechaInicio ZonedDateTime
+}
+
+entity Docente {
+  nombre String required,
+  documento String,
+  correo String
+}
+
+relationship ManyToOne {
+  Curso{docente} to Docente
+}
